@@ -8,6 +8,7 @@
 
 4. [Результаты тестового прогона QASE.pdf](https://github.com/user-attachments/files/18681172/QASE.pdf)
 5. [Отчеты о дефектах из Youtrack.xlsx](https://github.com/user-attachments/files/18681175/Youtrack.xlsx)
+6. [Отчет о тестировании Мобильного Приложения](https://github.com/LSalakhova/mobile/blob/main/Test%20Summary%20Report%20Liaisan%20Salakhova.pdf)
 
 
 
