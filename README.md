@@ -1,23 +1,32 @@
-# Тестирование мобильных приложений
+# 📱 Mobile Application Testing
 
-1. [Чек-лист для Мобильного Приложения "Shopping-list"](https://docs.google.com/spreadsheets/d/11rRuxv_YwgtPnhahAurOpX-gDa2PxQ-LCXCGrz1JdT4/edit?gid=1695833149#gid=1695833149)
+I tested Android Mobile App ["Shopping-list"](https://drive.google.com/file/d/1wSz1J4Ba-VDgjv82RIk59EaQ1Ys16ph8/view) . For testing purposes I used an emulator "Android Studio".
+
+Please, take a look at the results of my work:
+1. [Checklist for Mobile Application "Shopping-list"](https://docs.google.com/spreadsheets/d/11rRuxv_YwgtPnhahAurOpX-gDa2PxQ-LCXCGrz1JdT4/edit?gid=1695833149#gid=1695833149) for testing app's functionality, perfomance, usability and UI.
    
-2. [Тест-кейсы для Мобильного Приложения "Shopping-list"](https://app.qase.io/project/G9?author=304&suite=327&tab=&previewMode=side) 
+2. [Test cases](https://github.com/LSalakhova/mobile/blob/main/Test%20cases%20QASE.pdf) (via QASE) for testing app's functionality, perfomance, usability and UI.
 
-    [Test cases QASE.pdf](https://github.com/user-attachments/files/18681162/Test.cases.QASE.pdf)
+3. [Results of the test run](https://github.com/LSalakhova/mobile/blob/main/Results%20of%20the%20QASE%20test%20run.pdf) (via QASE) based on completed earlier Checklist and Test cases.
+4. [Bug reports](https://github.com/LSalakhova/mobile/blob/main/Bug%20reports%20from%20Youtrack.xlsx) (via Youtrack). The list of detected bugs after the test run.
+5. [Test Summary Report](https://github.com/LSalakhova/mobile/blob/main/Test%20Summary%20Bug%20Report.pdf) with metrics and graphic test result analysis.
 
-4. [Результаты тестового прогона QASE](https://github.com/LSalakhova/mobile/blob/main/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B%20%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BE%D0%BD%D0%B0%20QASE.pdf)
-5. [Отчеты о дефектах из Youtrack.xlsx](https://github.com/user-attachments/files/18681175/Youtrack.xlsx)
-6. [Отчет о тестировании Мобильного Приложения](https://github.com/LSalakhova/mobile/blob/main/Test%20Summary%20Report%20Liaisan%20Salakhova.pdf)
-7. [Charles Proxy. Добавление товаров в корзину и модификация запроса на удаление](https://drive.google.com/file/d/1f-jp18VVcvaMS8CSoYrcmVQwrCxUGTsP/view?usp=sharing)
+# 🫖 Replacing data with Charles Proxy
 
-    Перехват и изменение запроса таким образом, чтобы был удален другой товар.
-8. [Charles Proxy. Смена изображения в веб-приложении](https://drive.google.com/file/d/1_Hca7NbL4vg9M-4TLL8zpF1EtqR10U3g/view?usp=sharing)
+   As a part of Mobile App testing i also tested the website [Demoshopping.ru](https://demoshopping.ru/) using Charles Proxy.
+   Check out the following videos where I change data using the proxy server for website via browser Google Chrome on emulator "Android Studio":
 
-   Cмоделировано отображение произвольного изображения при обращении к веб-приложению.
-9. [Charles Proxy. Скриншот перехваченного HTTPs-запроса](https://drive.google.com/file/d/158u57e1_k9j088wVyMkRzJM15xURz7PE/view?usp=sharing)
+   
+1. [Adding items to the cart and modifying the deletion request](https://drive.google.com/file/d/1f-jp18VVcvaMS8CSoYrcmVQwrCxUGTsP/view?usp=sharing)
 
-   Перехвачен HTTPs-запрос с мобильного устройства, где в заголовке User-Agent отображается информация об устройстве.
+   Catching and modifying the request to create a scenario where a different product is removed.
+    
+2. [Replacing website with a picture](https://drive.google.com/file/d/1_Hca7NbL4vg9M-4TLL8zpF1EtqR10U3g/view?usp=sharing)
+
+   A scenario where the display of random picture is simulated when accessing a web application.
+3. [Finding user agent in headers](https://drive.google.com/file/d/158u57e1_k9j088wVyMkRzJM15xURz7PE/view?usp=sharing)
+
+   An HTTPs request from a mobile device was catched, where the User-Agent header displays information about the device.
 
 
 
